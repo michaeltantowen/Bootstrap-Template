@@ -1,2 +1,1 @@
-# Bootstrap-Template
-This repository contains template for bootstrap
+This repo contains template for bootstrap framework
