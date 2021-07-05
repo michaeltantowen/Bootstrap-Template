@@ -1,2 +1,1 @@
-# Bootstrap-Template
-This repository contains template for bootstrap
+Download or clone this repository for boostrap template
