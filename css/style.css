@@ -1,0 +1,102 @@
+body {
+  background-color: #202020;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+.font-awesome:hover, .side-menu:hover, .btn-category:hover {
+  cursor: pointer;
+  color: #B3B3B3 !important;
+  text-decoration: none;
+}
+
+.search-box {
+  background-color: #121212;
+  border: 1px solid;
+}
+
+.search-icon {
+  background-color: #313131;
+  border: 1px solid;
+}
+
+.left-menu {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.right-menu {
+  height: 90vh;
+}
+
+.video-library {
+  height: 85vh;
+  overflow-y: scroll;
+}
+
+.side-menu {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.category {
+  height: 5vh;
+}
+
+.btn-category {
+  background-color: #383838;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.image {
+  position: relative;
+}
+
+.image a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image:hover a {
+  opacity: 1;
+}
+
+.play-btn {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.play-btn:hover {
+  background-color: white;
+  color: red !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 10px;
+}

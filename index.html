@@ -8,13 +8,671 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.css">
 
-    <title>Hello, world!</title>
+    <!-- Google Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+    </style>
+
+    <link rel="shorcut icon" href="assets/small-logo.png">
+    <title>YouTube</title>
   </head>
   <body>
-    <h1>Good Luck!</h1>
+
+    <section class="top-menu p-3" style="height: 10vh;">
+      <div class="row">
+        <div class="col-5 col-lg-2">
+          <i class="fas fa-lg fa-bars text-white font-awesome mr-4"></i>
+          <img src="assets/logo.png" style="width: 100px; height: 20px;">
+        </div>
+        <div class="col-1 col-lg -5 offset-lg-1">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control search-box  d-none d-lg-inline" placeholder="Search" aria-label="video-title" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <span class="input-group-text search-icon  d-none d-lg-inline" id="basic-addon2"><i class="fas fa-search font-awesome mr-2 ml-2"></i></span>
+            </div>
+            <div class="voice-search mt-1 mt-lg-2 ml-3">
+              <i class="fas fa-lg fa-microphone font-awesome text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-5 col-lg-2 mt-1 mt-lg-2 offset-lg-2">
+          <i class="fas fa-lg fa-search font-awesome text-white d-lg-none mr-2 ml-2"></i>
+          <i class="fas fa-lg fa-video font-awesome text-white ml-lg-4 ml-2"></i>
+          <i class="fas fa-th fa-lg font-awesome text-white ml-lg-4 ml-2"></i>
+          <i class="fas fa-bell fa-lg font-awesome text-white ml-lg-4 ml-2"></i>
+          <i class="fas fa-user-circle fa-lg font-awesome text-primary ml-lg-4 ml-2"></i>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+        <div class="col-lg-2 d-none d-sm-block left-menu">
+          <section class="d-flex flex-column  border-bottom pl-3 pb-4">
+            <a href="#" class="text-white m-2 side-menu"><i class="fas text-muted font-awesome fa-lg mr-3 fa-home"></i>Home</a>
+            <a href="#" class="text-white m-2 side-menu"><i class="far text-muted font-awesome fa-lg mr-3 fa-compass"></i>Explore</a>
+            <a href="#" class="text-white m-2 side-menu"><i class="fas text-muted font-awesome fa-lg mr-3 fa-book"></i>Subscriptions</a>
+          </section>
+          <section class="d-flex flex-column  border-bottom pt-4 pl-3 pb-4">
+            <a href="#" class="text-white m-2 side-menu"><i class="fab text-muted font-awesome fa-lg mr-3 fa-youtube"></i>Library</a>
+            <a href="#" class="text-white m-2 side-menu"><i class="fas text-muted font-awesome fa-lg mr-3 fa-history"></i>History</a>
+            <a href="#" class="text-white m-2 side-menu"><i class="fas text-muted font-awesome fa-lg mr-3 fa-film"></i>Your Videos</a>
+            <a href="#" class="text-white m-2 side-menu"><i class="fas text-muted font-awesome fa-lg mr-3 fa-clock"></i>Watch Later</a>
+            <a href="#" class="text-white m-2 side-menu"><i class="fas text-muted font-awesome fa-lg mr-3 fa-chevron-down"></i>Show More</a>
+          </section>
+          <section class="d-flex flex-column pt-4 pl-3 pb-4">
+            <p class="text-white text-uppercase" style="font-weight: 600;">Subscriptions</p>
+            <a href="#" class="text-white side-menu d-flex align-items-center"><i class="fas fa-user-circle fa-2x font-awesome ml-2 mr-2"></i>Channel Name</a>
+            <a href="#" class="text-white side-menu d-flex align-items-center mt-3"><i class="fas fa-user-circle fa-2x font-awesome ml-2 mr-2"></i>Channel Name</a>
+            <a href="#" class="text-white side-menu d-flex align-items-center mt-3"><i class="fas fa-user-circle fa-2x font-awesome ml-2 mr-2"></i>Channel Name</a>
+            <a href="#" class="text-white side-menu d-flex align-items-center mt-3"><i class="fas fa-user-circle fa-2x font-awesome ml-2 mr-2"></i>Channel Name</a>
+            <a href="#" class="text-white side-menu d-flex align-items-center mt-3"><i class="fas fa-user-circle fa-2x font-awesome ml-2 mr-2"></i>Channel Name</a>
+            <a href="#" class="text-white side-menu d-flex align-items-center mt-3"><i class="fas fa-user-circle fa-2x font-awesome ml-2 mr-2"></i>Channel Name</a>
+            <a href="#" class="text-white side-menu d-flex align-items-center mt-3"><i class="fas fa-user-circle fa-2x font-awesome ml-2 mr-2"></i>Channel Name</a>
+          </section>
+        </div>
+        <div class="col-lg-10 right-menu border-top pt-2" style="border-color: #383838 !important;">
+          <div class="row category">
+            <a href="#" class="btn-category text-white">All</a>
+            <a href="#" class="btn-category text-white">Computer Science</a>
+            <a href="#" class="btn-category text-white">Front End</a>
+            <a href="#" class="btn-category text-white">Software Engineer</a>
+            <a href="#" class="btn-category text-white">Developer</a>
+            <a href="#" class="btn-category text-white">Work From Home</a>
+            <a href="#" class="btn-category text-white">Setup</a>
+            <a href="#" class="btn-category text-white">Tips & Trick</a>
+            <a href="#" class="btn-category text-white">Mouse</a>
+            <a href="#" class="btn-category text-white">Keyboard</a>
+            <a href="#" class="btn-category text-white">Macbook</a>
+          </div>
+
+          <div class="row video-library">
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <div class="card bg-transparent">
+                <div class="image">
+                  <img class="card-img-top rounded-0" src="assets/thumbnail.webp" alt="Card image cap">
+                  <a href="single.html" class="d-flex justify-content-center align-items-center">
+                    <i class="fas fa-2x font-awesome fa-play play-btn"></i>
+                  </a>
+                </div>
+                <div class="card-body pl-0 pt-0">
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="text-white side-menu fas fa-user-circle fa-2x font-awesome ml-2 mr-2 mt-4"></i>
+                    </div>
+                    <div class="col-10">
+                      <a href="#" class="text-white side-menu d-flex flex-column mt-3">
+                        <h6 class="mb-0">Tokyo FM</h6>
+                        <p class="mb-0">Channel Name</p>
+                        <p>125K Views - 7 Months Ago</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
